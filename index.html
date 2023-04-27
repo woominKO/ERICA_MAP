@@ -7,12 +7,18 @@
     <title>ERICA_MAP</title>
 
     <link rel="stylesheet" href="index.css" />
-    <style>
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $('img[usemap]').rwdImageMaps();
+
+        $('area').on('click', function () {
+          alert($(this).attr('alt') + ' clicked');
+        });
+      });
+    </script>
   </head>
   <body>
     <img
@@ -21,8 +27,8 @@
       border="0"
       width="1100"
       height="1190"
-      orgWidth="1100"
-      orgHeight="1190"
+      orgwidth="1100"
+      orgheight="1190"
       usemap="#image-maps-2023-04-05-122458"
       alt=""
     />
@@ -36,16 +42,15 @@
         href="경상관.html"
         shape="rect"
         coords="119,379,214,446"
-        style="outline: none"
         target="_self"
       />
+
       <area
         alt=""
-        title="2023"
+        title="202"
         href="http://www.image-maps.com/"
         shape="rect"
         coords="229,382,324,449"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -54,7 +59,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="267,454,317,504"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -63,7 +67,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="134,458,258,508"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -72,7 +75,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="219,312,343,362"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -81,7 +83,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="316,288,334,312"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -90,7 +91,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="261,276,294,312"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -99,7 +99,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="183,263,253,299"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -108,7 +107,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="171,297,219,346"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -117,7 +115,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="269,221,328,270"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -126,7 +123,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="327,243,386,266"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -135,7 +131,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="373,202,395,235"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -144,7 +139,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="288,193,364,220"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -153,7 +147,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="379,140,401,194"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -162,7 +155,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="289,176,346,193"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -171,7 +163,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="306,152,363,166"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -180,7 +171,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="266,146,294,172"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -189,7 +179,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="238,153,251,169"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -198,7 +187,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="223,140,236,155"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -207,7 +195,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="206,163,221,175"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -216,7 +203,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="199,138,219,157"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -225,7 +211,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="203,113,235,132"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -234,7 +219,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="602,241,634,271"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -243,7 +227,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="543,237,575,267"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -252,7 +235,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="430,215,473,260"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -261,7 +243,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="430,274,463,290"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -270,7 +251,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="416,297,467,354"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -279,7 +259,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="435,406,529,485"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -288,7 +267,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="560,274,604,339"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -297,7 +275,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="608,292,629,321"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -306,7 +283,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="634,291,658,320"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -315,7 +291,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="610,339,682,368"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -324,7 +299,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="702,336,774,365"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -333,7 +307,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="662,284,675,302"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -342,7 +315,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="688,291,710,313"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -351,7 +323,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="682,321,704,343"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -360,7 +331,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="674,277,681,287"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -369,7 +339,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="518,39,543,89"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -378,7 +347,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="553,85,578,135"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -387,7 +355,6 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="498,57,512,107"
-        style="outline: none"
         target="_self"
       />
       <area
@@ -396,14 +363,12 @@
         href="http://www.image-maps.com/"
         shape="rect"
         coords="473,92,490,108"
-        style="outline: none"
         target="_self"
       />
       <area
         shape="rect"
         coords="1098,1188,1100,1190"
         alt="Image Map"
-        style="outline: none"
         title="Image Map"
         href="https://www.image-maps.com/"
       />
@@ -426,8 +391,5 @@
     </script>
 
     
-  -->
-
-    <script src="index.js"></script>
-  </body>
+  --></body>
 </html>
